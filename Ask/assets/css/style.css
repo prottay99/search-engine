@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+input:focus {
+    outline: 0px;
+}
+.ask {
+    overflow: hidden;
+}
+.ask .logo {
+    position: relative;
+    
+}
+.ask .logo img {
+    width: 95px;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    right: 20px;
+    margin: auto;
+
+}
+.ask .search {
+    width: 850px;
+    height: 45px;
+    position: absolute;
+    top: 107px;
+    left: 0px;
+    right: 17px;
+    margin: auto;
+}
+.ask .search input {
+    width: 800px;
+    height: 45px;
+    padding: 0px 16px 0px;
+    font-size: 16px;
+    border-radius: 3px 0px 0px 3px;
+    border: 1px solid #ced4da;
+}
+.ask .search button {
+    width: 50px;
+    height: 45px;
+    margin-left: -5px;
+    background-color: #408EC9;
+    border-radius: 0px 3px 3px 0px;
+    border: 0px;
+    float: right;
+    cursor: pointer;
+}
+.ask .search button i {
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFF;
+}
+.menu {
+   text-align: center;
+   margin-top: 187px;
+   margin-right: 95px;
+}
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 35px;
+    font-size: 15px;
+    transition: 0.1s;
+    color: #151515;
+    font-family: "Roboto Condensed", sans-serif;
+    line-height: 20px;
+}
+.menu a:hover {
+    color: #cf0000;
+}
+.menu a:focus {
+    color: #cf0000;
+}
