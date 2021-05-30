@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "PingFang SC",Arial,"Microsoft YaHei",sans-serif;
+}
+input:focus {
+    outline: none;
+}
+.baidu .logo img {
+    width: 270px;
+    position: absolute;
+    top: 44px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    cursor: pointer;
+}
+.baidu .search {
+    width: 658px;
+    height: 44px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 215px;
+    margin: auto;
+}
+.baidu .search:after {
+    content: ;
+    display: block;
+    clear: both;
+}
+.baidu .search .dot1 {
+    float: left;
+    position: relative;
+}
+.baidu .search .dot1 input {
+    width: 548px;
+    height: 44px;
+    border-top: 2px solid #c4c7ce;
+    border-left: 2px solid #c4c7ce;
+    border-bottom: 2px solid #c4c7ce;
+    border-right: 0px;
+    border-radius: 10px 0px 0px 10px;
+    color: #222;
+    box-sizing: border-box;
+    padding: 12px 16px;
+    font-size: 16px;
+}
+.baidu .search .dot1 input:hover {
+    border-color: #a7aab5;
+}
+
+.baidu .search .dot1 input:focus {
+    border-color: #4e6ef2;
+}
+.baidu .search .dot1 img {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    cursor: pointer;
+}
+.baidu .search .but {
+    float: left;
+}
+.baidu .search .but button {
+    width: 108px;
+    height: 44px;
+    cursor: pointer;
+    background-color: #4e6ef2;
+    border-radius: 0 10px 10px 0;
+    box-shadow: none;
+    border: none;
+    outline: 0px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 45px;
+    
+}
+.baidu .search .but button:hover {
+    background-color: #4662d9;
+}
