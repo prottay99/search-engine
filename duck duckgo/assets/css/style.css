@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: open sans;
+}
+body {
+    background-color: #F7F7F7;
+}
+input:focus {
+    outline: none;
+}
+::placeholder {
+    color: #888;
+    font-size: 16px;
+}
+/*main style css*/
+.duck .logo {
+    width: 200px;
+    height: 162px;
+    position: absolute;
+    top: 70px;
+    left: 572px;
+    cursor: pointer;
+}
+.duck .logo img {
+    width: 140px;
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+.duck .logo p {
+    color: #444;
+    font-size: 34px;
+    position: absolute;
+    bottom: -8px;
+    left: -4px;
+    right: 0px;
+    margin: auto;
+}
+.search {
+    width: 665px;
+    height: 46px;
+    position: absolute;
+    top: 0px;
+    bottom: 43px;
+    left: 0px;
+    right: 15px;
+    margin: auto;
+}
+.search:after {
+    content: ;
+    display: block;
+    clear: both;
+}
+.search .ser {
+    float: left;
+}
+.search .ser input {
+    width: 615px;
+    height: 46px;
+    border: none;
+    padding: 0px 15px;
+    border-radius: 5px 0px 0px 5px;
+    border-top: 1px solid rgb(211, 211, 211);
+    border-left: 1px solid rgb(211, 211, 211);
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+.search .but {
+    float: left;
+}
+.search .but button {
+    width: 50px;
+    height: 46px;
+    border: none;
+    background-color: #FFF;
+    border-radius: 0px 5px 5px 0px;
+    border-top: 1px solid rgb(211, 211, 211);
+    border-right: 1px solid rgb(211, 211, 211);
+    border-bottom: 1px solid rgb(211, 211, 211);
+    cursor: pointer;
+}
+.search .but button:hover {
+    background-color: #66ad57;
+}
+.search .but button i {
+    color: #777;
+    font-size: 18px;
+}
+.search .but button i:hover {
+    color: #FFF;
+}
+.info {
+    position: absolute;
+    top: 350px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+.info h1 {
+    font-size: 29px;
+    font-weight: 800;
+    color: #333;
+    text-align: center;
+}
+.info p {
+    color: #444;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+}
+.info ul {
+    text-align: center;
+}
+.info ul li {
+    display: inline-block;
+    padding-left: 20px;
+    margin-top: 10px; 
+}
+.info ul li svg {
+
+}
+.info ul li span {
+    font-weight: 600;
+    font-size: 16px;
+    color: #222;
+
+}
+.info .add {
+    width: 235px;
+    height: 44px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+.info .add button{
+    width: 100%;
+    height: 100%;
+    background-color: #678fff;
+    border: #678fff;
+    color: #FFF;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
