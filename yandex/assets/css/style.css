@@ -1,0 +1,360 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+input:focus {
+    outline: none;
+}
+::placeholder {
+    color: rgba(0,0,0,0.4);
+}
+.yandex {
+    width: 100%;
+    height: 100vh;
+}
+.menu {
+    width: 720px;
+    height: 81px;
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    right: 0px;
+    margin: auto;
+}
+.menu:after {
+    content: ;
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+.image {
+    width: 100px;
+    height: 81px;
+    float: left;
+}
+.image  .tab-image_link {
+    width: 100px;
+    height: 81px;
+    text-align: center;
+}
+.image a {
+    text-decoration: none;
+    color: #222;
+    font-size: 13px;
+    font-weight: 400;
+    transition: 0.2s;
+    
+}
+.tab-image {
+    background-image: url(../img/images.svg);
+    background-size: cover;
+    width: 56px;
+    height: 61px;
+    margin: auto; 
+    transition: 0.2s;
+    margin-bottom: 5px;
+}
+.image a:hover {
+    color: #CC0000;
+}
+.image a:hover .tab-image {
+    transform: translate(0px , -7px);
+}
+
+.video {
+    width: 100px;
+    height: 81px;
+    float: left;
+}
+.video  .tab-video_link {
+    width: 100px;
+    height: 81px;
+    text-align: center;
+}
+.video a {
+    text-decoration: none;
+    color: #222;
+    font-size: 13px;
+    font-weight: 400;
+    transition: 0.2s;
+}
+.tab-video {
+    background-image: url(../img/video.svg);
+    background-size: cover;
+    width: 56px;
+    height: 61px;
+    margin: auto; 
+    transition: 0.2s;
+    margin-bottom: 5px;
+}
+.video a:hover {
+    color: #CC0000;
+}
+.video a:hover .tab-video {
+    transform: translate(0px , -7px);
+}
+
+
+.mail {
+    width: 100px;
+    height: 81px;
+    float: left;
+}
+.mail  .tab-mail_link {
+    width: 100px;
+    height: 81px;
+    text-align: center;
+}
+.mail a {
+    text-decoration: none;
+    color: #222;
+    font-size: 13px;
+    font-weight: 400;
+    transition: 0.2s;
+}
+.tab-mail {
+    background-image: url(../img/mail.svg);
+    background-size: cover;
+    width: 56px;
+    height: 61px;
+    margin: auto; 
+    transition: 0.2s;
+    margin-bottom: 5px;
+}
+.mail a:hover {
+    color: #CC0000;
+}
+.mail a:hover .tab-mail {
+    transform: translate(0px , -7px);
+}
+
+
+.map {
+    width: 100px;
+    height: 81px;
+    float: left;
+}
+.map  .tab-map_link {
+    width: 100px;
+    height: 81px;
+    text-align: center;
+}
+.map a {
+    text-decoration: none;
+    color: #222;
+    font-size: 13px;
+    font-weight: 400;
+    transition: 0.2s;
+}
+.tab-map {
+    background-image: url(../img/maps.svg);
+    background-size: cover;
+    width: 56px;
+    height: 61px;
+    margin: auto;
+    transition: 0.2s; 
+    margin-bottom: 5px;
+}
+.map a:hover {
+    color: #CC0000;
+}
+.map a:hover .tab-map {
+    transform: translate(0px , -7px);
+}
+
+
+
+.appmerica {
+    width: 100px;
+    height: 81px;
+    float: left;
+}
+.appmerica  .tab-appmerica_link {
+    width: 100px;
+    height: 81px;
+    text-align: center;
+}
+.appmerica a {
+    text-decoration: none;
+    color: #222;
+    font-size: 13px;
+    font-weight: 400;
+    transition: 0.2s;
+}
+.tab-appmerica {
+    background-image: url(../img/appmetrica2.svg);
+    background-size: cover;
+    width: 56px;
+    height: 61px;
+    margin: auto; 
+    transition: 0.2s;
+    margin-bottom: 5px;
+}
+.appmerica a:hover {
+    color: #CC0000;
+}
+.appmerica a:hover .tab-appmerica {
+    transform: translate(0px , -7px);
+}
+
+
+.translate {
+    width: 100px;
+    height: 81px;
+    float: left;
+}
+.translate  .tab-translate_link{
+    width: 100px;
+    height: 81px;
+    text-align: center;
+}
+.translate a {
+    text-decoration: none;
+    color: #222;
+    font-size: 13px;
+    font-weight: 400;
+    transition: 0.2s;
+}
+.tab-translate {
+    background-image: url(../img/translate.svg);
+    background-size: cover;
+    width: 56px;
+    height: 61px;
+    margin: auto; 
+    transition: 0.2s;
+    margin-bottom: 5px;
+}
+.translate a:hover {
+    color: #CC0000;
+}
+.translate a:hover .tab-translate {
+    transform: translate(0px , -7px);
+}
+
+
+.browser {
+    width: 100px;
+    height: 81px;
+    float: left;
+}
+.browser  .tab-browser_link {
+    width: 100px;
+    height: 81px;
+    text-align: center;
+}
+.browser a {
+    text-decoration: none;
+    color: #222;
+    font-size: 13px;
+    font-weight: 400;
+    transition: 0.2s;
+}
+.tab-browser {
+    background-image: url(../img/browser.svg);
+    background-size: cover;
+    width: 56px;
+    height: 61px;
+    margin: auto; 
+    transition: 0.2s;
+    margin-bottom: 5px;
+}
+.browser a:hover {
+    color: #CC0000;
+}
+.browser a:hover .tab-browser {
+    transform: translate(0px , -7px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main {
+    width: 66%;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    bottom: 15px;
+    left: 0px;
+    right: 10px;
+    margin: auto;
+}
+.main:after {
+    content: ;
+    display: block;
+    clear: both;
+}
+.yandex .logo {
+    float: left;
+}
+.yandex .logo img {
+    width: 120px;
+    cursor: pointer;
+}
+.yandex .Search {
+    width: 768px;
+    height: 40px;
+    background-color: #F5C400;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+.yandex .Search .search {
+    float: left;
+    position: relative;
+}
+.yandex .Search .search input {
+    width: 684px;
+    height: 36px;
+    margin-top: 2px;
+    margin-left: 2px;
+    border-radius: 10px 4px 4px 10px;
+    border: none;
+    padding: 0px 10px;
+    font-size: 16px;
+    color: #333;
+}
+.search i {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    font-size: 26px;
+    opacity: .2;
+}
+.search i:hover {
+    opacity: .4;
+}
+.yandex .Search .but {
+    float: left;
+}
+.yandex .Search .but button {
+    width: 78px;
+    height: 36px;
+    margin-top: 2px;
+    margin-left: 2px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    background-color: #F5C400;
+    cursor: pointer;
+}
